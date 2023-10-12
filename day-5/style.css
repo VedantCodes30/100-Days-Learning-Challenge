@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+  color: hsl(204, 100%, 50%);
+}
+
+#box {
+  border-radius: 50px;
+  color: aliceblue;
+  width: 250px;
+  height: 250px;
+  background-color: hsl(204, 100%, 50%);
+  font-size: 13rem;
+  text-align: center;
+  animation-name: slideRight;
+  animation-duration: 1s;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(300%);
+  }
+}
