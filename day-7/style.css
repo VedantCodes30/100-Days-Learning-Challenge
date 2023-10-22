@@ -1,5 +1,25 @@
 body {
+  background: linear-gradient(135deg, rgb(221, 118, 22), rgb(55, 31, 190));
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+#rand {
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50px;
+  font-family: Georgia;
+  padding: 190px;
+  text-align: center;
   background-color: rgb(55, 31, 190);
   color: aliceblue;
-  font-size: larger;
+  font-size: xx-large;
 }
