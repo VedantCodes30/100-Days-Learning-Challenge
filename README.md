@@ -17,4 +17,5 @@ You can track my daily progress on Github repo and Instagram Page. I'll be updat
 
 
 ## Links
-Instagram = instagram.com/@vedantcodes
+[Instagram](https://www.instagram.com/vedantcodes/)
+[GitHub Repo](https://github.com/VedantCodes30/100-Days-Learning-Challenge)
