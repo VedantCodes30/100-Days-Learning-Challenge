@@ -9,6 +9,7 @@ body {
   height: 100vh;
   margin: 0;
   color: white;
+  overflow: hidden;
 }
 
 #rand {
@@ -21,5 +22,26 @@ body {
   text-align: center;
   background-color: rgb(55, 31, 190);
   color: aliceblue;
-  font-size: xx-large;
+  font-size: x-large;
+  box-shadow: 2px, black, inset;
+}
+
+#rand:hover {
+  cursor: pointer;
+  animation-name: grow, fade;
+  animation-duration: 2s;
+
+  overflow: hidden;
+}
+
+@keyframes grow {
+  50% {
+    transform: scale(2, 2);
+  }
+}
+
+@keyframes fade {
+  50% {
+    opacity: 0;
+  }
 }
